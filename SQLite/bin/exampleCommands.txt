@@ -1,0 +1,38 @@
+SELECT
+    From
+    ~Join
+    Where
+    Group By
+    Having
+    Order By
+
+    select * from {select a, b, c from {select * from a} join b on a.b = b.b} where b > 10 and c in {select c from b where c = 5} order by a
+    select * from {select a, b, c from {select * from a} join b on a.b = b.b} where b > 10 and c in {select c from b where c = 5} order by a
+    select * from {select a, b, c from {select * from a} join b on a.b = b.b}
+    select b count(a) from a group by b having count(a) > 3 order by b desc;
+
+UPDATE
+    Set
+    Where
+
+DELETE
+    From
+    Where
+
+INSERT
+    Into
+    Values
+
+CREATE
+    Table
+
+DROP
+    Table
+
+ALTER
+    Table
+
+INSPECT
+    Table
+select * from {select a, b, c from a join b on a.b b.b} where b > 10 and c = 5 order by a;
+select b, count(a) from a group by b having count(a) > 3 order by b desc;
